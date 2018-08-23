@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndoorFinder"
+        xmlns:Properties="clr-namespace:IndoorFinder.Properties" x:Class="IndoorFinder.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600">
+
+    <Grid>
+        <Button Name="buttonEdit" Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="48,199,0,0" Click="buttonEdit_Click" Height="44"/>
+        <Button Name="buttonDeploy" Content="Deploy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="48,390,0,0" Height="44"/>
+        <Button Name="buttonSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="48,581,0,0" Height="44"/>
+        <ContentControl Name="contentControl" Content="ContentControl" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="254,83,0,0" Height="675" Width="1200"/>
+    </Grid>
+</Window>
